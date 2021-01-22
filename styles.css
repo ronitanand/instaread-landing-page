@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navv{
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 20px 20px;
+    border-bottom:1px solid grey ;
+    background-color: rgb(255, 254, 254);
+}
+.head{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+   max-width: 1200px;
+    margin: 0 auto;
+    width:auto ;
+    
+    
+     
+}
+.head ul{
+    display: flex;
+    list-style-type:none;
+    color: #8f95a3;
+    font-size: 17px;
+    margin-right: 0px;
+    margin-bottom: 0;
+    width: 400px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.head img{
+    margin-left: 0px;
+}
+.head ul  span{
+    display: none;
+}
+
+.tagline{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: nowrap;
+    align-items:flex-start;
+    
+    background-color: rgb(255, 254, 254);
+    text-align: center;
+    height: fit-content;
+    padding: 0;
+}
+
+.left div img{
+    width: 50px;
+    height: 50px;
+
+}
+.left{
+    height:500px;
+    width: 50%;
+   background-image: url("https://instaread.co/images/hero.jpg");
+   background-size: contain;
+   background-repeat:no-repeat ;
+   background-size: cover; 
+   background-size:contain ;
+}
+.middle{
+    width: 350px;
+    height: 500px;
+}
+.right{
+    height: 500px;
+}
+
+
+
+
+
+
+#row1{
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
+#smarter{
+    border-right: 0.5px solid rgb(173, 171, 171);
+    
+}
+
+
+
+#smarter h2{
+    font-weight: 600;
+}
+#inspiration{
+    border-right:0.5px solid rgb(173, 171, 171);
+    
+}
+#onthego h2{
+    font-weight: 600;
+    
+}
+#inspiration h2{
+    font-weight: 600;
+}
+
+
+#inside{
+    margin-top: -500px;
+    margin-left:250px ;
+    padding: 0px;
+    
+    
+    
+    
+}
+#inside :hover{
+    cursor: pointer;
+}
+
+#mobiles{
+    font-size: 30px;
+    font-weight: 600;
+    width: 85%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+#big-image{
+    width: 100%;
+    
+}
+
+#inside1{
+    
+    margin-top: 200px;
+    
+
+}
+#inside1 img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px ;
+    top: 1600px;
+   
+  
+    
+    
+}
+#button{
+    margin: 0 auto;
+    
+    outline: none;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 19px;
+    color: white;
+    border-radius: 0.176rem;
+box-shadow: 0 0.235rem 0.471rem 0 rgba(0, 0, 0, 0.17), 0 0.059rem 0.118rem 0 rgba(0, 0, 0, 0.07);
+color: #ffffff;
+background-image: linear-gradient(to bottom, #009aeb, #0085e6);
+border: solid 1px #0085e6;
+}
+
+#para{
+    font-size: 35px;
+    font-weight: 600;
+    min-width: 450px;
+    width:35% ;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.col-6.col-sm-2 img{
+    height: 170px;
+    min-width: 80px;
+    width: 100%;
+    max-width: 150px;
+    border-radius: 10px;
+    box-shadow:2px 2px 2px grey;
+    
+
+
+}
+#row3{
+    
+}
+.para2{
+    font-size: 35px;
+    font-weight: 600;
+    min-width: 450px;
+    width:35% ;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.col-12.col-sm-4 p img{
+    width: 100px;
+    
+
+}
+.col-12.col-sm-4 h2{
+    font-weight: 600;
+}
+.col-12.col-sm-4 p{
+    font-size: 20px;
+}
+.col-12.col-sm-4 a{
+    text-decoration: none;
+
+}
+#forbes{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(245, 240, 240);
+    padding: 10px;
+}
+#forbes img{
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+}
+#forbes img :nth-child(4){
+    margin-right:0 ;
+}
+#small{
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: 40px;
+    padding: 10px 10px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    width: 100%;
+}
+.get-started{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left:0 ;
+}
+.get-started p{
+    width: 400px;
+
+}
+#small button{
+    border: none;
+    background-image: linear-gradient(to bottom, #009aeb, #0085e6);
+border: solid 1px #0085e6;
+color: white;
+width: 150px;
+margin-right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:575px){
+.head ul{
+    margin-right: 100px;
+}
+    .head ul li {
+    display: none;
+    
+}
+.head ul span{
+    display: block;
+    margin-left: 0px;
+}
+.navv{
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 20px 20px;
+    border-bottom:1px solid grey ;
+    background-color: rgb(255, 254, 254);
+}
+.head{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+   max-width: 1200px;
+    margin: 0 auto;
+    width:auto ;
+    
+    
+     
+}
+.head ul{
+    display: flex;
+    list-style-type:none;
+    color: #8f95a3;
+    font-size: 17px;
+    margin-right: 0px;
+    margin-bottom: 0;
+    width: 400px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+#row1{
+    margin: 0 auto;
+}
+
+#smarter{
+    margin: 0 auto;
+    border: none;
+    text-align: center;
+}
+#inspiration{
+    border:none;
+}
+#smarter p{
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+#inspiration p{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+#onthego p{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+#forbes{
+    display: none;
+}
+#small{
+    display: none;
+}
+
+
+}
